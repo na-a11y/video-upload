@@ -1,0 +1,64 @@
+/* Container card styling */
+.card {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card title */
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; /* Keep the title centered */
+  }
+  
+  /* Form inside the card */
+  .card-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Form group to align label and input */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Aligns the label to the left */
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for input fields */
+  .card-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* Button styling */
+  .card-button {
+    padding: 12px 20px;
+    background-color: #2b5486;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .card-button:hover {
+    background-color: #34688d;
+  }
+  
