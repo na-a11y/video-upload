@@ -27,7 +27,7 @@ const UploadVideo = () => {
           'Content-Type': 'multipart/form-data',
         },
       };
-      const url = 'http://localhost:5000/api/upload-video';
+      const url = 'https://video-upload-rho.vercel.app/api/upload-video';
       const response = await axios.post(url, formData, config);
 
       // Alert message and reset form inputs
