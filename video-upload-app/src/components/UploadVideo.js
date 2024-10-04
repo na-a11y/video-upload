@@ -27,7 +27,7 @@ const UploadVideo = () => {
           'Content-Type': 'multipart/form-data',
         },
       };
-      const url = 'https://video-upload-rho.vercel.app/api/upload-video';
+      const url = 'https://video-upload-backend.onrender.com/api/upload-video';
       const response = await axios.post(url, formData, config);
 
       // Alert message and reset form inputs
